@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Entidades.Light">
+  <Class Name="Entities.Light">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AUAAAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
-      <FileName>Light.cs</FileName>
+      <FileName>Entities\Light.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Entidades.SmallLight">
+  <Class Name="Entities.SmallLight">
     <Position X="0.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAFAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
-      <FileName>SmallLight.cs</FileName>
+      <FileName>Entities\SmallLight.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Entidades.BigLight">
+  <Class Name="Entities.BigLight">
     <Position X="4.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEABAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>BigLight.cs</FileName>
+      <FileName>Entities\BigLight.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Entidades.SalesOrder">
+  <Class Name="Entities.SalesOrder">
     <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAIQAAAAAAAAAABAQIAAAEEAAAAAAAAAgAAAQAAA=</HashCode>
-      <FileName>SalesOrder.cs</FileName>
+      <FileName>Entities\SalesOrder.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Entidades.SalesOrderDetail">
+  <Class Name="Entities.SalesOrderDetail">
     <Position X="8.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>IAACAAAAAAAAAAAAgAAAAAAAAAAAAEAEAAAAAAAAAAA=</HashCode>
-      <FileName>SalesOrder.cs</FileName>
+      <FileName>Entities\SalesOrder.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

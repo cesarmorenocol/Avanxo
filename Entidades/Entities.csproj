@@ -49,7 +49,10 @@
     <Compile Include="Entities\Enums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Model\ClassDiagram.cd" />
+    <None Include="Entities\ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
