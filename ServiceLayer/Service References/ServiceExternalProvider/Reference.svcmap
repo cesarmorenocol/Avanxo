@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2aa5b549-4d21-4143-be48-5798968e7aa4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:3221/ServiceExternalProvider.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceExternalProvider.xsd" MetadataType="Schema" ID="acc2e80f-b8c6-48a5-a86f-5657fde6ca16" SourceId="1" SourceUrl="http://localhost:3221/ServiceExternalProvider.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceExternalProvider1.xsd" MetadataType="Schema" ID="dda0f5bc-b510-4030-854f-d3ec7e9cda01" SourceId="1" SourceUrl="http://localhost:3221/ServiceExternalProvider.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceExternalProvider.wsdl" MetadataType="Wsdl" ID="7c9ee928-41ee-49da-9d61-db37a66b492f" SourceId="1" SourceUrl="http://localhost:3221/ServiceExternalProvider.svc?wsdl" />
+    <MetadataFile FileName="ServiceExternalProvider.disco" MetadataType="Disco" ID="0d40ebd2-4125-4211-8685-7f9a7c64ba65" SourceId="1" SourceUrl="http://localhost:3221/ServiceExternalProvider.svc?disco" />
+    <MetadataFile FileName="ServiceExternalProvider2.xsd" MetadataType="Schema" ID="0e9c2208-86de-4d89-bc1f-eb9a4940fd15" SourceId="1" SourceUrl="http://localhost:3221/ServiceExternalProvider.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

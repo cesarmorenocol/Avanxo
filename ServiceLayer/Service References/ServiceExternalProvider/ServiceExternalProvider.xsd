@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ProviderService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ProviderService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Request">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RequestREF">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CardMessage" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SpecialGiftQuantity" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Request" nillable="true" type="tns:Request" />
+  <xs:complexType name="RequestREF">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="RequestId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RequestREF" nillable="true" type="tns:RequestREF" />
+</xs:schema>
